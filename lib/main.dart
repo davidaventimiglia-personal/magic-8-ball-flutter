@@ -22,10 +22,10 @@ class BallPage extends StatelessWidget {
 
 class Ball extends StatefulWidget {
   @override
-  State<StatefulWidget> createState() => _DicePageState();
+  State<StatefulWidget> createState() => _BallPageState();
 }
 
-class _DicePageState extends State<Ball> {
+class _BallPageState extends State<Ball> {
   @override
   Widget build(BuildContext context) {
     return Center(child: Image.asset('images/ball1.png'));
